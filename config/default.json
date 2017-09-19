@@ -1,0 +1,14 @@
+{
+  "app": {
+    "timezone": "Asia/Manila"
+  },
+  "google":{
+      "client_id":"919244659786-600218q20rdugt2vo0dbejqmqprt2h18.apps.googleusercontent.com",
+      "project_id":"gpassistant-notifier",
+      "auth_uri":"https://accounts.google.com/o/oauth2/auth",
+      "token_uri":"https://accounts.google.com/o/oauth2/token",
+      "auth_provider_x509_cert_url":"https://www.googleapis.com/oauth2/v1/certs",
+      "client_secret":"6u44H-UQkzFCuZ4nHgyK-F0Q",
+      "redirect_uris":["http://localhost:8080"]
+  }
+}

@@ -15,8 +15,9 @@ const administration = require('./routes/administration')(router);
 const staff = require('./routes/staff')(router);
 const appointment = require('./routes/appointment')(router);
 const medicalHistory = require('./routes/medicalhistory')(router);
-const prescription = require('./routes/medicalhistory')(router);
+const prescription = require('./routes/prescription')(router);
 const contact = require('./routes/contact')(router);
+const scheduler = require('./scheduler');
 const bodyParser = require('body-parser');
 
 
@@ -37,7 +38,8 @@ mongoose.connect(config.uri, (err) =>{
  middle ware
  ===================================================================*/
 app.use(cors({
-    origin: 'http://localhost:4200'
+    origin: 'http://localhost:4200',
+    credentials: true
 }));
 app.use(bodyParser.urlencoded({ extended: false}));
 app.use(bodyParser.json());
@@ -57,6 +59,10 @@ app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname + '/client/dist/index.html'));
 });
 
+/*==================================================================
+    launch scheduler
+  ==================================================================*/
+    scheduler.start();
 /*==================================================================
  Connect to local server
  ===================================================================*/

@@ -105,7 +105,7 @@ const userSchema = new Schema({
    temporarytoken: { type: String, required: true},
    resetPasswordToken: {type: String, require: false},
    permission: { type: String, required: true, default: 'user'}, //roles user, staff, superuser
-   category: {type: Array, default: []},
+   medicalSpecialities: [{name:String}],
    position: {type: String, required: false},
    personal_info: { type: Schema.Types.ObjectId, ref: 'Info'}
 });

@@ -10,7 +10,7 @@ const path = require('path');
 const multer = require('multer');
 const storage = multer.diskStorage({
    destination: function (req, file, cb){
-       cb(null, 'client/src/uploads/')
+       cb(null, 'client/src/assets/images/')
    } ,
    filename: function (req, file, cb) {
        cb(null, file.fieldname+req.decoded.userId+'-'+Date.now()+path.extname(file.originalname));
@@ -161,17 +161,123 @@ module.exports = (router) => {
            if(err){
                res.json({success: false, message:err});
            }else{
-               const profile = new Profile();
-               profile.avatar = req.file.filename;
-               profile.owner = req.decoded.userId;
-               profile.save((err) =>{
+               //search database if user already as a picture
+               Profile.findOne({owner:req.decoded.userId}, (err, profile) =>{
                    if(err){
-                       res.json({success: false, message:'Cant save Image', error: err});
+                       res.json({success: false, message:err});
                    }else{
-                       res.json({success: true, message:'Image Uploaded'});
+                       if(!profile){
+                           const profile = new Profile();
+                           profile.avatar = req.file.filename;
+                           profile.owner = req.decoded.userId;
+                           profile.save((err) =>{
+                               if(err){
+                                   res.json({success: false, message:'Cant save Image', error: err});
+                               }else{
+                                   res.json({success: true, message:'Image Uploaded'});
+                               }
+                           })
+                       }else{
+                           profile.avatar = req.file.filename;
+                           profile.owner = req.decoded.userId;
+                           profile.save((err) =>{
+                               if(err){
+                                   res.json({success: false, message:'Cant save Image', error: err});
+                               }else{
+                                   res.json({success: true, message:'Image Uploaded'});
+                               }
+                           })
+                       }
                    }
-               })
+               });
            }
+        });
+    });
+
+    router.get('/avatar', (req, res) => {
+        Profile.findOne({owner:req.decoded.userId})
+            .populate('owner')
+            .exec((err, avatar) =>{
+            if(err){
+                res.json({success: false, message:err});
+            }else{
+                res.json({success: true, image: avatar});
+            }
+        });
+    });
+
+    router.get('/avatars', (req, res) => {
+        Profile.find({owner:req.decoded.userId})
+            .populate('owner')
+            .exec((err, avatar) =>{
+                if(err){
+                    res.json({success: false, message:err});
+                }else{
+                    res.json({success: true, image: avatar});
+                }
+            });
+    });
+
+    router.get('/get-user/:id', (req, res) =>{
+       User.findById(req.params.id, (err, user) =>{
+           if(err){
+               res.json({success: false, message: err})
+           }else{
+               if(!user){
+                   res.json({success: false, message: 'Incorect user id'})
+               }else{
+                   res.json({success: true, user: user})
+               }
+           }
+       })
+    });
+
+    router.get('/get-user', (req, res) =>{
+       User.find({permission: 'user'}, (err, users) =>{
+           if(err){
+               res.json({success: false, message: err})
+           }else{
+               res.json({success: true, list: users})
+           }
+        })
+    });
+
+    router.get('/get-users', (req, res) =>{
+        User.find((err, users) =>{
+            if(err){
+                res.json({success: false, message: err})
+            }else{
+                console.log('users\n'+ users);
+                res.json({success: true, users: users})
+            }
+        })
+    });
+
+    //update contact info
+    router.put('/update-contact-info', (req, res) => {
+        Info.findOne({owner:req.decoded.userId}, (err, user) =>{
+            if(err){
+                res.json({success: false, message: err})
+            }else{
+                if(!user){
+                    res.json({success: false, message: 'Invalid user id'})
+                }else{
+                    user.phone_number = req.body.phone_number;
+                    user.address_line1 = req.body.address_line1;
+                    user.address_line2 = req.body.address_line2;
+                    user.postcode = req.body.postcode;
+                    user.city = req.body.city;
+                    user.country_of_residence = req.body.country_of_residence;
+
+                    user.save((err) =>{
+                        if(err){
+                            res.json({success: false, message: err})
+                        }else{
+                            res.json({success: true, message: 'information updated'});
+                        }
+                    })
+                }
+            }
         });
     });
 

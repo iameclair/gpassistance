@@ -189,7 +189,7 @@ module.exports = (router) => {
                             const email = {
                                 from: 'GP Assistant, noreply@gpassistant.com',
                                 to: user.email,
-                                subject: 'Account Activation',
+                                subject: 'Password modification',
                                 text: 'Hello '+ 'Eclair' +' Click on the link below to change your password' +
                                 'http://localhost:8080/resetpassword/'+ 'token here',
                                 html: 'Hello <strong>'+ user.first_name +'</strong>,<br /> Click on the link below ' +

@@ -121,9 +121,9 @@ module.exports = (router) => {
         });
     });
 
-    router.get('/get-message', (req, res) => {
+    router.get('/get-message/:id', (req, res) => {
 
-       Message.findById(req.body.id).select().exec((err, email) =>{
+       Message.findById(req.params.id).select().exec((err, email) =>{
            if(err){
                res.json({success: false, message: err})
            }else{
@@ -137,8 +137,8 @@ module.exports = (router) => {
     });
 
     //hide message
-    router.put('/hide-message/:id', (req, res) => {
-        Message.findById(req.params.id, (err, message) =>{
+    router.put('/hide-message', (req, res) => {
+        Message.findOne({_id:req.body._id}, (err, message) =>{
             if(err){
                 res.json({success: false, message: err})
             } else{
