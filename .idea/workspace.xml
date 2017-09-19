@@ -1,219 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a2e85e4-ccf9-4d51-b9e7-106e990df7d0" name="Default" comment="Big fix">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/images/appointment.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/images/avatar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/images/avatar59b7ac903af19607447fa029-1505209916072.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/images/avatar59b7afea38810b0a4acca251-1505210636110.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/images/avatar59b7afea38810b0a4acca251-1505210662590.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/images/email.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/images/gp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/images/gpassistance.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/images/gpassistant.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/images/history.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/images/logo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/images/online.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/images/paper-background.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/images/reminder.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/uploads/avatar5981d5f9bce27b67b453afb3-1503355023899.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/1st.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/adminlogin/addstaff/addstaff.component.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/adminlogin/addstaff/addstaff.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/adminlogin/addstaff/addstaff.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/adminlogin/addstaff/addstaff.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/adminlogin/adminlogin.component.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/adminlogin/adminlogin.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/adminlogin/adminlogin.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/adminlogin/adminlogin.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/adminlogin/displaypatients/displaypatients.component.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/adminlogin/displaypatients/displaypatients.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/adminlogin/displaypatients/displaypatients.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/adminlogin/displaypatients/displaypatients.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/adminnavbar/adminnavbar.component.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/adminnavbar/adminnavbar.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/adminnavbar/adminnavbar.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/adminnavbar/adminnavbar.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/adminview/adminview.component.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/adminview/adminview.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/adminview/adminview.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/adminview/adminview.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/appointment/AppointmentWorkflow/appointmentWorkflow.model.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/appointment/AppointmentWorkflow/appointmentWorkflowService.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/appointment/form.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/appointment/navflow/navflow.component.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/appointment/navflow/navflow.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/appointment/navflow/navflow.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/appointment/riliwan-rabo.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/book/book.component.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/book/book.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/book/book.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/book/book.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/booking/booking.component.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/booking/booking.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/booking/booking.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/booking/booking.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/cancelappointment/cancelappointment.component.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/cancelappointment/cancelappointment.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/cancelappointment/cancelappointment.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/cancelappointment/cancelappointment.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/cancelpatient/cancelpatient.component.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/cancelpatient/cancelpatient.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/cancelpatient/cancelpatient.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/cancelpatient/cancelpatient.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/contact/contact.component.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/contact/contact.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/contact/contact.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/contact/contact.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/contactdoctor/contactdoctor.component.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/contactdoctor/contactdoctor.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/contactdoctor/contactdoctor.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/contactdoctor/contactdoctor.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/create/create.component.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/create/create.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/create/create.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/create/create.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/deletemessage/deletemessage.component.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/deletemessage/deletemessage.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/deletemessage/deletemessage.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/deletemessage/deletemessage.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/deletestaff/deletestaff.component.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/deletestaff/deletestaff.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/deletestaff/deletestaff.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/deletestaff/deletestaff.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/deletetimeslot/deletetimeslot.component.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/deletetimeslot/deletetimeslot.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/deletetimeslot/deletetimeslot.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/deletetimeslot/deletetimeslot.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/footer/footer.component.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/footer/footer.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/footer/footer.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/footer/footer.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/makeappointment/makeappointment.component.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/makeappointment/makeappointment.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/makeappointment/makeappointment.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/makeappointment/makeappointment.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/managepatient/managepatient.component.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/managepatient/managepatient.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/managepatient/managepatient.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/managepatient/managepatient.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/managestaff/managestaff.component.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/managestaff/managestaff.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/managestaff/managestaff.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/managestaff/managestaff.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/managpatient/managpatient.component.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/managpatient/managpatient.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/managpatient/managpatient.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/managpatient/managpatient.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/medicalhistory/medicalhistory.component.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/medicalhistory/medicalhistory.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/medicalhistory/medicalhistory.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/medicalhistory/medicalhistory.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/medicalspeciality/medicalspeciality.component.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/medicalspeciality/medicalspeciality.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/medicalspeciality/medicalspeciality.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/medicalspeciality/medicalspeciality.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/medication/medication.component.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/medication/medication.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/medication/medication.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/medication/medication.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/myappointments/myappointments.component.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/myappointments/myappointments.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/myappointments/myappointments.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/myappointments/myappointments.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/mycalendar/mycalendar.component.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/mycalendar/mycalendar.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/mycalendar/mycalendar.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/mycalendar/mycalendar.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/prescriptioninput/prescriptioninput.component.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/prescriptioninput/prescriptioninput.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/prescriptioninput/prescriptioninput.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/prescriptioninput/prescriptioninput.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/seepatient/seepatient.component.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/seepatient/seepatient.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/seepatient/seepatient.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/seepatient/seepatient.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/staff/staff.component.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/staff/staff.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/staff/staff.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/staff/staff.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/stafflogin/stafflogin.component.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/stafflogin/stafflogin.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/stafflogin/stafflogin.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/stafflogin/stafflogin.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/staffview/staffview.component.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/staffview/staffview.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/staffview/staffview.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/staffview/staffview.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/symptom/symptom.component.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/symptom/symptom.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/symptom/symptom.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/symptom/symptom.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/timetable/event.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/timetable/timetable.component.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/timetable/timetable.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/timetable/timetable.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/timetable/timetable.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/updatetimeslot/updatetimeslot.component.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/updatetimeslot/updatetimeslot.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/updatetimeslot/updatetimeslot.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/updatetimeslot/updatetimeslot.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/uploadfile/uploadfile.component.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/uploadfile/uploadfile.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/uploadfile/uploadfile.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/components/uploadfile/uploadfile.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/interfaces/managestaff.interface.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/services/admin.service.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/services/admin.service.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/services/appointment.service.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/services/appointment.service.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/services/contact.service.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/services/contact.service.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/services/dataservice.service.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/services/dataservice.service.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/services/info.service.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/services/info.service.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/services/prescription.service.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/services/prescription.service.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/services/search.service.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/services/search.service.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/services/staff.service.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/services/staff.service.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/javascript.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client" afterPath="$PROJECT_DIR$/client" />
+    <list default="true" id="2a2e85e4-ccf9-4d51-b9e7-106e990df7d0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/.angular-cli.json" afterPath="$PROJECT_DIR$/client/.angular-cli.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/package.json" afterPath="$PROJECT_DIR$/client/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/app-routing.module.ts" afterPath="$PROJECT_DIR$/client/src/app/app-routing.module.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/app.component.spec.ts" afterPath="$PROJECT_DIR$/client/src/app/app.component.spec.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/app.module.ts" afterPath="$PROJECT_DIR$/client/src/app/app.module.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/components/appointment/appointment.component.css" afterPath="$PROJECT_DIR$/client/src/app/components/appointment/appointment.component.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/components/appointment/appointment.component.html" afterPath="$PROJECT_DIR$/client/src/app/components/appointment/appointment.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/components/appointment/appointment.component.ts" afterPath="$PROJECT_DIR$/client/src/app/components/appointment/appointment.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/components/details/details.component.html" afterPath="$PROJECT_DIR$/client/src/app/components/details/details.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/components/details/details.component.ts" afterPath="$PROJECT_DIR$/client/src/app/components/details/details.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/components/login/login.component.css" afterPath="$PROJECT_DIR$/client/src/app/components/login/login.component.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/components/login/login.component.html" afterPath="$PROJECT_DIR$/client/src/app/components/login/login.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/components/login/login.component.ts" afterPath="$PROJECT_DIR$/client/src/app/components/login/login.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/components/main/main.component.css" afterPath="$PROJECT_DIR$/client/src/app/components/main/main.component.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/components/main/main.component.html" afterPath="$PROJECT_DIR$/client/src/app/components/main/main.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/components/management/management.component.css" afterPath="$PROJECT_DIR$/client/src/app/components/management/management.component.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/components/management/management.component.html" afterPath="$PROJECT_DIR$/client/src/app/components/management/management.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/components/management/management.component.ts" afterPath="$PROJECT_DIR$/client/src/app/components/management/management.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/components/navbar/navbar.component.html" afterPath="$PROJECT_DIR$/client/src/app/components/navbar/navbar.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/components/patientinfo/patientinfo.component.html" afterPath="$PROJECT_DIR$/client/src/app/components/patientinfo/patientinfo.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/components/patientinfo/patientinfo.component.ts" afterPath="$PROJECT_DIR$/client/src/app/components/patientinfo/patientinfo.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/components/prescription/prescription.component.css" afterPath="$PROJECT_DIR$/client/src/app/components/prescription/prescription.component.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/components/prescription/prescription.component.html" afterPath="$PROJECT_DIR$/client/src/app/components/prescription/prescription.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/components/prescription/prescription.component.ts" afterPath="$PROJECT_DIR$/client/src/app/components/prescription/prescription.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/components/register/register.component.html" afterPath="$PROJECT_DIR$/client/src/app/components/register/register.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/components/register/register.component.ts" afterPath="$PROJECT_DIR$/client/src/app/components/register/register.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/components/reset/reset.component.css" afterPath="$PROJECT_DIR$/client/src/app/components/reset/reset.component.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/components/reset/reset.component.html" afterPath="$PROJECT_DIR$/client/src/app/components/reset/reset.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/components/resetpassword/resetpassword.component.css" afterPath="$PROJECT_DIR$/client/src/app/components/resetpassword/resetpassword.component.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/components/resetpassword/resetpassword.component.html" afterPath="$PROJECT_DIR$/client/src/app/components/resetpassword/resetpassword.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/index.html" afterPath="$PROJECT_DIR$/client/src/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/styles.css" afterPath="$PROJECT_DIR$/client/src/styles.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -298,6 +87,7 @@
         <option value="Eclair Lumu" />
       </list>
     </option>
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="ROOT_SYNC" value="SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/client" />
   </component>
@@ -701,7 +491,7 @@
       <workItem from="1505168277493" duration="11716000" />
       <workItem from="1505351717010" duration="74000" />
       <workItem from="1505784390841" duration="220000" />
-      <workItem from="1505785310514" duration="539000" />
+      <workItem from="1505785310514" duration="796000" />
     </task>
     <task id="LOCAL-00001" summary="Big fix">
       <created>1502717967240</created>
@@ -710,7 +500,14 @@
       <option name="project" value="LOCAL" />
       <updated>1502717967240</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Big fix">
+      <created>1505785934812</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1505785934812</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -746,7 +543,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1017142000" />
+    <option name="totallyTimeSpent" value="1017399000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -761,7 +558,7 @@
     <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18124208" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18124208" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27543426" sideWeight="0.5025" order="2" side_tool="true" content_ui="tabs" />
